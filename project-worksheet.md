@@ -3,13 +3,13 @@
 ## Project Schedule
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Worsheet | Incomplete
-|Day 2|	Django Api and Deployment | Incomplete
-|Day 3| React Header, LogIn, SignUp, and Home | Incomplete
-|Day 4| React Clothing List, Full Details, Shopping Cart| Incomplete
-|Day 5| React Shopping Cart, Confirmation Page, and My Orders| Incomplete
-|Day 6| React Profile, Search Bar, and Touch Ups | Incomplete
-|Day 7| Present | Incomplete
+|Day 1| Project Worsheet and Set Up | Incomplete
+|Day 2|	Header | Incomplete
+|Day 3| Home, About| Incomplete
+|Day 4| Lessons | Incomplete
+|Day 5| Handbook and Policy, Performance | Incomplete
+|Day 6| Contact, Bug fixes | Incomplete
+|Day 7| Present on Youtube | Incomplete
 
 ## Project Description
 This project is a music studio website made as template for private music instructors. There are many private music instructors offering their services without the assistance of a website. In this technology age, the use of a website is invaluable for advertising and connecting customers to offered services. Using class components in React.js. 
