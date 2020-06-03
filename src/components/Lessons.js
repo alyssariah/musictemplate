@@ -1,12 +1,12 @@
 import React from "react"
 
-class Home extends React.Component {
+class Lessons extends React.Component {
     render() {
         return(
         <>
-            <h1>Home Page</h1>
+            <h1>Lessons</h1>
         </>
         )
     }
 }
-export default Home
+export default Lessons

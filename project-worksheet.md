@@ -3,8 +3,8 @@
 ## Project Schedule
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Worsheet and Set Up | Incomplete
-|Day 2|	Header | Incomplete
+|Day 1| Project Worsheet and Set Up | Complete
+|Day 2| Header | Incomplete
 |Day 3| Home, About| Incomplete
 |Day 4| Lessons | Incomplete
 |Day 5| Handbook and Policy, Performance | Incomplete
@@ -37,8 +37,8 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### MVP
 
 MVP List:
-- [ ] Set up react class components
-- [ ] Set up react router
+- [x] Set up react class components
+- [x] Set up react router
 - [ ] Make header (sticky, highlight current page, dropdown menu for lessons)
 - [ ] Home Page
 - [ ] About Page
@@ -56,8 +56,7 @@ PostMVP List:
 
 | Task | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Set up class components| H | 0.5hr | hr | hr|
-| Set up routes | H | 0.5hr | hr | hr|
+| Set up class components and routes| H | 0.25hr | .25hr | hr|
 | Header original | H | 1hr | 1hr | hr|
 | Sticky | H | 2hr| hr | hr |
 | Highlight link | H | 2hr | hr | hr|

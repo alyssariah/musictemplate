@@ -1,19 +1,30 @@
 import React from 'react';
-import './App.css';
-import {Link, Switch, Route, Redirect} from 'react-router-dom'
+import './App.sass'
+import {Switch, Route, Redirect} from 'react-router-dom'
+import Header from './components/Header'
 import Home from './components/Home'
+import About from './components/About'
+import Lessons from './components/Lessons'
+import Perform from './components/Perform'
+import Policies from './components/Policies'
+import Contact from './components/Contact'
 
 function App() {
-  const data = <h2>Available Lessons</h2>
   return (
+    <main>
     <div className="App">
-      <header>
-        <h1>Piano Lessons</h1>
-      </header>
+      <Header/>
       <Switch>
-        <Route exact path="/"><Home data={data}/></Route>
+        <Route exact path="/"><Home/></Route>
+        <Route path="/about"><About/></Route>
+        <Route path="/lessons"><Lessons/></Route>
+        <Route path="/policies"><Policies/></Route>
+        <Route path="/perform"><Perform /></Route>
+        <Route path="/contact"><Contact/></Route>
+        <Redirect to='/'/>
       </Switch>
     </div>
+    </main>
   );
 }
 
