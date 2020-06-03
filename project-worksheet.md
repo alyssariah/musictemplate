@@ -22,10 +22,10 @@ This website includes 6 pages:
     -performance
     -contact
 
-## Wireframes
-[Creative Keys Website](https://creativekeysmusic.com/piano-lab/)
-[Piano Nanny](https://creativekeysmusic.com/piano-lab/)
-[Piano Forte Music School](https://www.pianoforte-music.com/)
+## Inspiration
+    -[Creative Keys Website](https://creativekeysmusic.com/piano-lab/)
+    -[Piano Nanny](https://creativekeysmusic.com/piano-lab/)
+    -[Piano Forte Music School](https://www.pianoforte-music.com/)
 
 ## React Architecture
 [React Architecture](https://docs.google.com/drawings/d/1qn8AAY4Hh9_uGAHRzQ76rZyzVBdHQJY96QbUxbzr_eo/edit)
