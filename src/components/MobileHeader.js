@@ -12,18 +12,17 @@ class MobileHeader extends React.Component {
     render() {
         return(
         <nav id="nav">
-            <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i></a>
-            <i class="fas fa-music"></i>
+            <a href="#" data-target="slide-out" class="sidenav-trigger show-on-large"><i class="material-icons">menu</i><i class="fas fa-music"></i></a>
             <div className="container">
                 <ul id="slide-out" class="sidenav">
                 <li>
                     <div className="user-view">
                     <div className="background">
-                        <img src="https://images.unsplash.com/photo-1540593463874-59835505e99d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60"/>
+                        <img src="https://images.unsplash.com/photo-1540593463874-59835505e99d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=60"/>
                     </div>
-                    <a href="#user"><img className="circle" src="https://images.unsplash.com/photo-1540593463874-59835505e99d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60"/></a>
-                    <a href="#name"><span className="black-text name">Music Lessons</span></a>
-                    <a href="#email"><span className="black-text email">alyssastudio@gmail.com</span></a>
+                    <a href="#user"><img className="circle" src=""/></a>
+                    <a href="#name"><span className="black-text name">Music Lessons <br/> alyssastudio@gmail.com</span></a>
+                    {/* <a href="#email"><span className="black-text email">alyssastudio@gmail.com</span></a> */}
                     </div>
                 </li>
                     <li><Link to='/' className="sidenav-close">Home</Link></li>
