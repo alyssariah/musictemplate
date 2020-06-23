@@ -33,8 +33,8 @@ class MobileHeader extends React.Component {
                     <li><Link to='/' className="sidenav-close">Home</Link></li>
                     <li><Link to='/about' className="sidenav-close">About</Link></li>
                     <li><a onClick={dropDown}className="lessons">Lessons <i className="fas fa-caret-down"/></a></li>
-                    <li className={this.state.dropdown? "show": "hidden"}><Link to='/lessons' className="sidenav-close" id="piano">Piano Lessons</Link></li>
-                    <li className={this.state.dropdown? "show": "hidden"}><Link to='/lessons' className="sidenav-close" id="guitar">Guitar Lessons</Link></li>
+                    <li className={this.state.dropdown? "show": "hidden"}><Link to='/lessons' className="sidenav-close" id="piano" onClick={()=>this.props.setInstrument("Piano")}>Piano Lessons</Link></li>
+                    <li className={this.state.dropdown? "show": "hidden"}><Link to='/lessons' className="sidenav-close" id="guitar" onClick={()=>this.props.setInstrument("Guitar")}>Guitar Lessons</Link></li>
                     <li><Link to='/policies' className="sidenav-close">Policies</Link></li>
                     <li><Link to='/perform' className="sidenav-close">Perform</Link></li>
                     <li><Link to='/contact' className="sidenav-close">Contact</Link></li>

@@ -1,4 +1,5 @@
 import React from 'react';
+import {useState} from 'react'
 import './App.sass'
 import {Switch, Route, Redirect} from 'react-router-dom'
 import MobileHeader from './components/MobileHeader'
@@ -9,9 +10,10 @@ import Lessons from './components/Lessons'
 import Perform from './components/Perform'
 import Policies from './components/Policies'
 import Contact from './components/Contact'
-import { useMediaQuery } from 'react-responsive'
+import {useMediaQuery } from 'react-responsive'
 
 function App() {
+  const [instrument, setInstrument] = useState('Piano')
   const isDesktopOrLaptop = useMediaQuery({
     query: '(min-device-width: 1024px)'
   })
@@ -22,11 +24,11 @@ function App() {
     <div className="main">
       <div className="App">
         {isDesktopOrLaptop && <Header/>}
-        {isTabletOrMobile && <MobileHeader/>}
+        {isTabletOrMobile && <MobileHeader setInstrument={setInstrument}/>}
         <Switch>
           <Route exact path="/"><Home/></Route>
           <Route path="/about"><About/></Route>
-          <Route path="/lessons"><Lessons/></Route>
+          <Route path="/lessons"><Lessons instrument={instrument}/></Route>
           <Route path="/policies"><Policies/></Route>
           <Route path="/perform"><Perform /></Route>
           <Route path="/contact"><Contact/></Route>
