@@ -5,19 +5,31 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    z-index: 2;
     .user-view
         margin: 0;
         padding: 0;
         height: 30vh;
-    .name, .email
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    .name
+        width: 100vw;
+        margin: 0;
         padding: 5px 0px
         font-weight: bold;
         background-color: rgba(255,255,255, 0.6)
-    h4
+    h5
         margin: 0;
-        width: 75vw;
+        width: 70vw;
         color: #E0DEDF;
         font-family: 'Abhaya Libre', serif;
+.sidenav .heading
+    text-align: center;
+.sidenav a
+    text-align: left;
+    padding: 0 100px;
+
 .lessons 
     display: flex;
     align-items: center;

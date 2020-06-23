@@ -20,19 +20,22 @@ function App() {
   })
   return (
     <div className="main">
-    <div className="App">
-      {isDesktopOrLaptop && <Header/>}
-      {isTabletOrMobile && <MobileHeader/>}
-      <Switch>
-        <Route exact path="/"><Home/></Route>
-        <Route path="/about"><About/></Route>
-        <Route path="/lessons"><Lessons/></Route>
-        <Route path="/policies"><Policies/></Route>
-        <Route path="/perform"><Perform /></Route>
-        <Route path="/contact"><Contact/></Route>
-        <Redirect to='/'/>
-      </Switch>
-    </div>
+      <div className="App">
+        {isDesktopOrLaptop && <Header/>}
+        {isTabletOrMobile && <MobileHeader/>}
+        <Switch>
+          <Route exact path="/"><Home/></Route>
+          <Route path="/about"><About/></Route>
+          <Route path="/lessons"><Lessons/></Route>
+          <Route path="/policies"><Policies/></Route>
+          <Route path="/perform"><Perform /></Route>
+          <Route path="/contact"><Contact/></Route>
+          <Redirect to='/'/>
+        </Switch>
+        <footer>
+          &copy; Alyssa's Music Studio
+        </footer>
+      </div>
     </div>
   );
 }
