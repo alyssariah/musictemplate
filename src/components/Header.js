@@ -8,7 +8,11 @@ class Header extends React.Component {
     componentDidMount() {
         let elems = document.querySelectorAll('.dropdown-trigger');
         M.Dropdown.init(elems, {inDuration: 300, outDuration: 225});
-    }
+        window.onscroll= function(){
+            let bar = document.getElementById('fullNav');
+            bar.classList.add("sticky")
+        }
+        }
     render() {
         return(
         <>
