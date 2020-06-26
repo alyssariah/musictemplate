@@ -6,7 +6,7 @@ class Header extends React.Component {
     render() {
         return(
         <>
-            <h1 className="topHeader">Music Lessons</h1>
+            <h1 className="topHeader">Alyssa's Music Studio</h1>
             <nav id="fullNav">
                 <Link to='/'>Home</Link>
                 <Link to='/about'>About</Link>
