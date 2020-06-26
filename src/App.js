@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="main">
       <div className="App">
-        {isDesktopOrLaptop && <Header/>}
+        {isDesktopOrLaptop && <Header setInstrument={setInstrument}/>}
         {isTabletOrMobile && <MobileHeader setInstrument={setInstrument}/>}
         <Switch>
           <Route exact path="/"><Home/></Route>
