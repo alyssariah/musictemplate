@@ -16,7 +16,7 @@ class About extends React.Component {
                     I have also been the church choir pianist for a couple of years and have enjoyed playing with voices. If you have any questions about me, please feel free to reach out! 
                 </h6>
 
-                <video width="300" controls src="https://res.cloudinary.com/dwbqzx4rr/video/upload/v1592884787/video_o40szs.mov" alt="chopsticks duet with husband"/>
+                <video controls src="https://res.cloudinary.com/dwbqzx4rr/video/upload/v1592884787/video_o40szs.mov" alt="chopsticks duet with husband"/>
                 <h6>
                     Two years ago, I married my husband, Brian, who also happens to play piano. We have enjoyed playing fun duets together. In the video above is a chopsticks variation played by my husband and I while we were dating.
                 </h6>

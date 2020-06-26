@@ -7,7 +7,7 @@ class Contact extends React.Component {
         <>
             <div className="card">
                 <h4>Contact Me</h4>
-                <form>
+                <form method="post" action="Contact.php" enctype="text/plain">
                     <input type="text" name="name" id="name" required/>
                     <label for="name">Name</label>
                     <input type="tel" name="phone"required/>
