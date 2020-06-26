@@ -4,13 +4,21 @@
     background-size: contain;
     height: 300px;
     margin: 0;
-@media(min-width: 1024px)
-    #fullNav
-        background-color: black;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding: 15px 0;
-        a
-            color: white;
-            text-decoration: none;
+
+#fullNav
+    z-index: 2;
+    background-color: rgba(0,0,0,0.9);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+    a
+        flex: 1;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 16px;
+        color: white;
+        text-decoration: none;
+    a:hover, a:focus
+        background-color: grey;
+        color: black;

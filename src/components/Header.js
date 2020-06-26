@@ -10,7 +10,7 @@ class Header extends React.Component {
             <nav id="fullNav">
                 <Link to='/'>Home</Link>
                 <Link to='/about'>About</Link>
-                <Link to='/lessons'>Lessons</Link>
+                <Link to='/lessons'>Lessons </Link>
                 <Link to='/policies'>Policies</Link>
                 <Link to='/perform'>Perform</Link>
                 <Link to='/contact'>Contact</Link>
