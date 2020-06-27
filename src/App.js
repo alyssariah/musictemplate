@@ -1,7 +1,7 @@
 import React from 'react';
 import {useState} from 'react'
 import './App.sass'
-import {Switch, Route, Redirect} from 'react-router-dom'
+import {BrowserRouter, Switch, Route, Redirect} from 'react-router-dom'
 import MobileHeader from './components/MobileHeader'
 import Header from './components/Header'
 import Home from './components/Home'
@@ -11,6 +11,7 @@ import Perform from './components/Perform'
 import Policies from './components/Policies'
 import Contact from './components/Contact'
 import {useMediaQuery } from 'react-responsive'
+
 
 function App() {
   const [instrument, setInstrument] = useState('Piano')
@@ -25,15 +26,17 @@ function App() {
       <div className="App">
         {isDesktopOrLaptop && <Header setInstrument={setInstrument}/>}
         {isTabletOrMobile && <MobileHeader setInstrument={setInstrument}/>}
-        <Switch>
-          <Route exact path="/"><Home/></Route>
-          <Route path="/about"><About/></Route>
-          <Route path="/lessons"><Lessons instrument={instrument}/></Route>
-          <Route path="/policies"><Policies/></Route>
-          <Route path="/perform"><Perform /></Route>
-          <Route path="/contact"><Contact/></Route>
-          <Redirect to='/'/>
-        </Switch>
+        <BrowserRouter>
+          <Switch>
+            <Route exact path="/"><Home/></Route>
+            <Route path="/about"><About/></Route>
+            <Route path="/lessons"><Lessons instrument={instrument}/></Route>
+            <Route path="/policies"><Policies/></Route>
+            <Route path="/perform"><Perform /></Route>
+            <Route path="/contact"><Contact/></Route>
+            <Redirect to='/'/>
+          </Switch>
+        </BrowserRouter>
         <footer>
           &copy; Alyssa's Music Studio
         </footer>
