@@ -1,7 +1,6 @@
 import React from "react"
 import {Link} from 'react-router-dom'
 import '../sass/MobileHeader.sass'
-import 'materialize-css/dist/css/materialize.min.css';
 import M from 'materialize-css/dist/js/materialize.min.js';
 
 class MobileHeader extends React.Component {
