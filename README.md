@@ -10,7 +10,7 @@ My goal is to provide small businesses or individuals with a professsional websi
 
 Build status of continus integration through travis
 
-[![Build Status](https://travis-ci.org/{alyssariah}/{musictemplate}.png?branch=master)](https://travis-ci.org/{alyssariah}/{music template})
+[![Build Status](https://travis-ci.org/alyssariah/musictemplate.png?branch=master)](https://travis-ci.org/alyssariah/musictemplate)
 
 ## Code Style
 
