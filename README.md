@@ -4,49 +4,72 @@ This project is a web application to advertise music lessons to the public from 
 
 ## Motivation
 
-My goal is to provide small businesses or individuals with a professsional website and enhanced internet presence. This website is am example of what I can do with a small business such as a music studio. 
+My goal is to provide small businesses/individuals with professsional websites and enhanced internet presence. This website is an example of a small business website such as a music studio. 
 
 ## Build Status
 
-Build status of continus integration through Travis CI
+Build status of continous integration through Travis CI
 
 [![Build Status](https://travis-ci.org/alyssariah/musictemplate.png?branch=master)](https://travis-ci.com/github/alyssariah/musictemplate)
 
+## Deploy Status
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c7c144a3-9bd3-4bc2-8869-1c8542363bd6/deploy-status)](https://app.netlify.com/sites/alyssas-musicstudio/deploys)
+
+[Alyssa's Music Studio](https://alyssas-musicstudio.netlify.app/)
+
 ## Code Style
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ## Screenshots
 
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![Home Page](screenshots/home.jpeg)
+![Contact Page](screenshots/contact.jpeg)
+![Mobile Navigation Version](screenshots/mobileNav.jpeg)
+![Tablet Page View](screenshots/tabletPage.jpeg)
 
 ## Tech/Framework Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+__Built with:__
+* ReactJS
+* Materialize 
 
 ## Features
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+* Navigation bar with drop down menu 
+* Navigation bar sticks to the top of the page while scrolling
+* Contact form sends email to owner and auto replies to confirm message sent to user
+* Responsive layout for mobile, tablet, and desktop sizes
+
 
 ## Code Example
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Submit function for contact form
+
+```
+handleSubmit (event) {
+    event.preventDefault()
+    const templateId = 'music_lessons';
+
+    this.sendFeedback(templateId, {name: this.state.name, email: this.state.email, phone: this.state.phone, instrument: this.state.instrument, comments: this.state.comments})
+}
+sendFeedback (templateId, variables) {
+    window.emailjs.send(
+        'contact_service', templateId,
+        variables
+    ).then(res => {
+        document.querySelector("form").reset()
+        this.setState({formSent: true})
+    })
+    .catch(err => console.error("Error: ", err))
+}
+```
 
 ## API Reference
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+[EmailJS](https://www.emailjs.com/docs/) 
 
 ## License
+
+&copy; Alyssa Jackson
