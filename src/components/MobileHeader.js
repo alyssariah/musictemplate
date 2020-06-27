@@ -25,9 +25,9 @@ class MobileHeader extends React.Component {
                     <li>
                         <div className="user-view">
                         <div className="background">
-                            <img src="https://images.unsplash.com/photo-1549401002-bcd2dba1a5c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80"/>
+                            <img src="https://images.unsplash.com/photo-1571974599782-87624638275e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80"/>
                         </div>
-                        <a className="heading" href="#name"><span className="black-text name">Music Lessons <br/> alyssastudio@gmail.com</span></a>
+                        <a className="heading" href="#name"><span className="black-text name">Alyssa's Music Studio <br/> alyssastudio@gmail.com</span></a>
                         </div>
                     </li>
                     <li><Link to='/' className="sidenav-close">Home</Link></li>

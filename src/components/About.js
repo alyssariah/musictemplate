@@ -15,8 +15,11 @@ class About extends React.Component {
                     in the music program. I took theory classes, aural perceptions, choir, private piano lessons, and more. In college, I mostly played classical music and accompanied the Women's choir and vocal students during rehearsals and performances. 
                     I have also been the church choir pianist for a couple of years and have enjoyed playing with voices. If you have any questions about me, please feel free to reach out! 
                 </h6>
-
                 <video controls src="https://res.cloudinary.com/dwbqzx4rr/video/upload/v1592884787/video_o40szs.mov" alt="chopsticks duet with husband"/>
+                <h6>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </h6>
                 <h6>
                     Two years ago, I married my husband, Brian, who also happens to play piano. We have enjoyed playing fun duets together. In the video above is a chopsticks variation played by my husband and I while we were dating.
                 </h6>
