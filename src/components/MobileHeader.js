@@ -19,7 +19,7 @@ class MobileHeader extends React.Component {
         }
         return(
         <nav id="nav">
-            <a href="#" data-target="slide-out" className="sidenav-trigger show-on-large"><i className="material-icons">menu</i></a>
+            <p data-target="slide-out" className="sidenav-trigger show-on-large"><i className="material-icons">menu</i></p>
             <div className="container">
                 <ul id="slide-out" className="sidenav">
                     <li>
@@ -32,7 +32,7 @@ class MobileHeader extends React.Component {
                     </li>
                     <li><Link to='/' className="sidenav-close">Home</Link></li>
                     <li><Link to='/about' className="sidenav-close">About</Link></li>
-                    <li><a href="#" onClick={dropDown}className="lessons">Lessons <i className="fas fa-caret-down"/></a></li>
+                    <li><Link to="/lessons" onClick={dropDown}className="lessons">Lessons <i className="fas fa-caret-down"/></Link></li>
                     <li className={this.state.dropdown? "show": "hidden"}><Link to='/lessons' className="sidenav-close" id="piano" onClick={()=>this.props.setInstrument("Piano")}>Piano Lessons</Link></li>
                     <li className={this.state.dropdown? "show": "hidden"}><Link to='/lessons' className="sidenav-close" id="guitar" onClick={()=>this.props.setInstrument("Guitar")}>Guitar Lessons</Link></li>
                     <li><Link to='/policies' className="sidenav-close">Policies</Link></li>
