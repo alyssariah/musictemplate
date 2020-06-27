@@ -65,34 +65,34 @@ class Contact extends React.Component {
                 <form>
                 <div className="row">
                     <div className="input-field">
-                        <input type="text" name="name" id="name" onChange={this.handleName} required/>
-                        <label for="name">Name</label>
+                        <input type="text" name="name" onChange={this.handleName} required/>
+                        <label htmlFor="name">Name</label>
                     </div>
                 </div>
                 <div className="row">
                     <div className="input-field">
                         <input type="tel" name="phone" onChange={this.handlePhone} required/>
-                        <label for="phone">Phone Number</label>
+                        <label htmlFor="phone">Phone Number</label>
                     </div>
                 </div>
                 <div className="row">
                     <div className="input-field">
                         <input type="email" name="email" onChange={this.handleEmail} required/>
-                        <label for="email">Email</label>
+                        <label htmlFor="email">Email</label>
                     </div>
                 </div>
                 <div className="input-field select">
                     <select name="instrument" onChange={this.handleInstrument} required>
-                        <option value="" disabled selected></option>
+                        <option value="" disabled defaultValue></option>
                         <option value="Piano">Piano</option>
                         <option value="Guitar">Guitar</option>
                     </select>
-                    <label for="instrument" className="instrument">Please choose your instrument</label>
+                    <label htmlFor="instrument" className="instrument">Please choose your instrument</label>
                 </div>
                 <div className="row">
                     <div className="input-field">
                         <textarea name="comments" id="textarea1" className="materialize-textarea" onChange={this.handleComments}/>
-                        <label for="comments">Additional Comments</label>
+                        <label htmlFor="comments">Additional Comments</label>
                     </div>
                 </div>
                     <button onClick={this.handleSubmit}>Submit</button>

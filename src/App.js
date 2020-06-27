@@ -1,7 +1,7 @@
 import React from 'react';
 import {useState} from 'react'
 import './App.sass'
-import {BrowserRouter, Switch, Route, Redirect} from 'react-router-dom'
+import {BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom'
 import MobileHeader from './components/MobileHeader'
 import Header from './components/Header'
 import Home from './components/Home'
@@ -22,7 +22,7 @@ function App() {
     query: '(max-device-width: 1023px)'
   })
   return (
-    <BrowserRouter>
+    <Router>
     <div className="main">
       <div className="App">
         {isDesktopOrLaptop && <Header setInstrument={setInstrument}/>}
@@ -41,7 +41,7 @@ function App() {
         </footer>
       </div>
     </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 
