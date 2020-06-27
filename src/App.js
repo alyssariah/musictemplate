@@ -22,11 +22,11 @@ function App() {
     query: '(max-device-width: 1023px)'
   })
   return (
+    <BrowserRouter>
     <div className="main">
       <div className="App">
         {isDesktopOrLaptop && <Header setInstrument={setInstrument}/>}
         {isTabletOrMobile && <MobileHeader setInstrument={setInstrument}/>}
-        <BrowserRouter>
           <Switch>
             <Route exact path="/"><Home/></Route>
             <Route path="/about"><About/></Route>
@@ -36,12 +36,12 @@ function App() {
             <Route path="/contact"><Contact/></Route>
             <Redirect to='/'/>
           </Switch>
-        </BrowserRouter>
         <footer>
           &copy; Alyssa's Music Studio
         </footer>
       </div>
     </div>
+    </BrowserRouter>
   );
 }
 
