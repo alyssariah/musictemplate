@@ -14,20 +14,21 @@ Build status of continous integration through Travis CI
 
 ## Deploy Status
 
+[Alyssa's Music Studio](https://alyssas-musicstudio.netlify.app/)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c7c144a3-9bd3-4bc2-8869-1c8542363bd6/deploy-status)](https://app.netlify.com/sites/alyssas-musicstudio/deploys)
 
-[Alyssa's Music Studio](https://alyssas-musicstudio.netlify.app/)
 
 ## Code Style
 
-
+-JSX
 
 ## Screenshots
 
 ![Home Page](screenshots/home.jpeg)
 ![Contact Page](screenshots/contact.jpeg)
 ![Mobile Navigation Version](screenshots/mobileNav.jpeg)
-![Tablet Page View](screenshots/tabletPage.jpeg)
+![Mobile Home View](screenshots/mobileHome.jpeg)
+![Mobile Page View](screenshots/mobilePage.jpeg)
 
 ## Tech/Framework Used
 
