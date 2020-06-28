@@ -1,4 +1,4 @@
-## Alyssa Music Studio 
+# Alyssa Music Studio 
 
 This project is a web application to advertise music lessons to the public from a private music studio. It includes 6 navigaton links: Home, About, Lessons, Policies, Perform, and Contact. 
 
@@ -15,6 +15,8 @@ Build status of continous integration through Travis CI
 ## Deploy Status
 
 [Alyssa's Music Studio](https://alyssas-musicstudio.netlify.app/)
+
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c7c144a3-9bd3-4bc2-8869-1c8542363bd6/deploy-status)](https://app.netlify.com/sites/alyssas-musicstudio/deploys)
 
 
@@ -40,7 +42,7 @@ __Built with:__
 
 * Navigation bar with drop down menu 
 * Navigation bar sticks to the top of the page while scrolling
-* Contact form sends email to owner and auto replies to confirm message sent to user
+* Contact form sends email to owner and auto replies to confirm message to user
 * Responsive layout for mobile, tablet, and desktop sizes
 
 
