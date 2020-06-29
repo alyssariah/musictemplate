@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/alyssariah/musictemplate.png?branch=master)](https://travis-ci.com/github/alyssariah/musictemplate)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c7c144a3-9bd3-4bc2-8869-1c8542363bd6/deploy-status)](https://app.netlify.com/sites/alyssas-musicstudio/deploys)
+
+
 # Alyssa Music Studio 
 
 This project is a web application to advertise music lessons to the public from a private music studio. It includes 6 navigaton links: Home, About, Lessons, Policies, Perform, and Contact. 
@@ -10,14 +14,10 @@ My goal is to provide small businesses/individuals with professsional websites a
 
 Build status of continous integration through Travis CI
 
-[![Build Status](https://travis-ci.org/alyssariah/musictemplate.png?branch=master)](https://travis-ci.com/github/alyssariah/musictemplate)
 
 ## Deploy Status
 
-[Alyssa's Music Studio](https://alyssas-musicstudio.netlify.app/)
-
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c7c144a3-9bd3-4bc2-8869-1c8542363bd6/deploy-status)](https://app.netlify.com/sites/alyssas-musicstudio/deploys)
+Netlify: [Alyssa's Music Studio](https://alyssas-musicstudio.netlify.app/)
 
 
 ## Code Style
@@ -30,7 +30,6 @@ Build status of continous integration through Travis CI
 ![Contact Page](screenshots/contact.jpeg)
 ![Mobile Navigation Version](screenshots/mobileNav.jpeg)
 ![Mobile Home View](screenshots/mobileHome.jpeg)
-![Mobile Page View](screenshots/mobilePage.jpeg)
 
 ## Tech/Framework Used
 

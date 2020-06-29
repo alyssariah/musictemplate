@@ -82,8 +82,8 @@ class Contact extends React.Component {
                     </div>
                 </div>
                 <div className="input-field select">
-                    <select name="instrument" onChange={this.handleInstrument} required>
-                        <option value="" disabled defaultValue></option>
+                    <select name="instrument" onChange={this.handleInstrument}>
+                        <option value=""></option>
                         <option value="Piano">Piano</option>
                         <option value="Guitar">Guitar</option>
                     </select>
