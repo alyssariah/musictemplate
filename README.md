@@ -2,9 +2,9 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c7c144a3-9bd3-4bc2-8869-1c8542363bd6/deploy-status)](https://app.netlify.com/sites/alyssas-musicstudio/deploys)
 
 
-# Alyssa Music Studio 
+# Alyssa's Music Studio 
 
-This project is a web application to advertise music lessons to the public from a private music studio. It includes 6 navigaton links: Home, About, Lessons, Policies, Perform, and Contact. 
+This project is a web application to advertise music lessons from a private music studio. It includes 6 navigaton links: Home, About, Lessons, Policies, Perform, and Contact. 
 
 ## Motivation
 
